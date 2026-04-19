@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub AI - Responsive Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">H</span> HelpHub AI
+        </div>
+        <nav>
+            <a href="./index.html">Dashboard</a>
+            <a href="./explore.html">Explore</a>
+            <a href="./index.html" class="active-tab">Messages</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="top-banner">
+            <p class="small-label">INTERACTION / MESSAGING</p>
+            <h1>Keep support moving through direct communication.</h1>
+            <p class="sub-text">Basic messaging gives helpers and requesters a clear follow-up path once a match happens.</p>
+        </section>
+
+        <div class="content-grid">
+            
+            <div class="card">
+                <p class="card-label">CONVERSATION STREAM</p>
+                <h2>Recent messages</h2>
+                
+                <div class="list-item">
+                    <div class="item-header">
+                        <strong>Ayesha Khan → Sara Noor</strong>
+                        <span class="time-badge">09:45 AM</span>
+                    </div>
+                    <p>I checked your portfolio request. Share the breakpoint screenshots and I can suggest fixes.</p>
+                </div>
+
+                <div class="list-item">
+                    <div class="item-header">
+                        <strong>Hassan Ali → Ayesha Khan</strong>
+                        <span class="time-badge">11:10 AM</span>
+                    </div>
+                    <p>Your event poster concept is solid. I would tighten the CTA and reduce background texture.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="card-label">SEND MESSAGE</p>
+                <h2>Start a conversation</h2>
+                
+                <div class="form-group">
+                    <label>To</label>
+                    <select>
+                        <option>Ayesha Khan</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea placeholder="Share support details, ask for files, or suggest next steps."></textarea>
+                </div>
+
+                <button class="btn-send">Send</button>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>

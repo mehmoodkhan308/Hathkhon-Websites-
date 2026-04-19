@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub AI - Explore Feed</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo"><span class="logo-box">H</span> HelpHub AI</div>
+        <nav>
+            <a href="./index.html">Dashboard</a>
+            <a href="./explore.html" class="active">Explore</a>
+            <a href="./leaderboard.html">Leaderboard</a>
+            <a href="./notificaton.html">Notifications</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="header-banner">
+            <p class="label-muted">EXPLORE / FEED</p>
+            <h1>Browse help requests with filterable community context.</h1>
+            <p class="subtext">Filter by category, urgency, skills, and location to surface the best matches.</p>
+        </div>
+
+        <div class="main-layout">
+            <aside class="sidebar">
+                <p class="label-teal">FILTERS</p>
+                <h2>Refine the feed</h2>
+
+                <div class="filter-group">
+                    <label>Category</label>
+                    <select><option>All categories</option></select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Urgency</label>
+                    <select><option>All urgency levels</option></select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Skills</label>
+                    <input type="text" placeholder="React, Figma, Git/GitHub">
+                </div>
+
+                <div class="filter-group">
+                    <label>Location</label>
+                    <input type="text" placeholder="Karachi, Lahore, Remote">
+                </div>
+            </aside>
+
+            <section class="feed">
+                <div class="feed-card">
+                    <div class="tags">
+                        <span class="tag tech">Web Development</span>
+                        <span class="tag high">High</span>
+                        <span class="tag solved">Solved</span>
+                    </div>
+                    <h3>Need help</h3>
+                    <p class="post-desc">helpn needed</p>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Ayesha Khan</strong>
+                            <span>Karachi • 1 helper interested</span>
+                        </div>
+                        <a class="btn-open" href="./detail.html">Open details</a>
+                    </div>
+                </div>
+
+                <div class="feed-card">
+                    <div class="tags">
+                        <span class="tag tech">Web Development</span>
+                        <span class="tag high">High</span>
+                        <span class="tag solved">Solved</span>
+                    </div>
+                    <h3>Need help making my portfolio responsive...</h3>
+                    <p class="post-desc">My HTML/CSS portfolio breaks on tablets and I need layout guidance before tomorrow evening.</p>
+                    <div class="inner-tags">
+                        <span>HTML/CSS</span> <span>Responsive</span> <span>Portfolio</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Sara Noor</strong>
+                            <span>Karachi • 1 helper interested</span>
+                        </div>
+                        <a class="btn-open" href="./detail.html">Open details</a>
+                    </div>
+                </div>
+
+                <div class="feed-card">
+                    <div class="tags">
+                        <span class="tag design">Design</span>
+                        <span class="tag med">Medium</span>
+                        <span class="tag open">Open</span>
+                    </div>
+                    <h3>Looking for Figma feedback on a volunteer event poster</h3>
+                    <p class="post-desc">I have a draft poster for a campus community event and want sharper hierarchy and spacing.</p>
+                    <div class="inner-tags">
+                        <span>Figma</span> <span>Poster</span> <span>Design Review</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Ayesha Khan</strong>
+                            <span>Lahore • 1 helper interested</span>
+                        </div>
+                        <a class="btn-open" href="./detail.html">Open details</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
